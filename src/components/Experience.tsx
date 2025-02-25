@@ -50,8 +50,8 @@ const Experience = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => 
                     <p className="text-[#94A3B8] font-semibold text-sm mb-3">Community Project</p>
                     <p className="text-sm text-[#94A3B8]">Developed a certificate authentication website using PHP for business logic and CSS for styling. The platform allows users to verify certificates by entering a unique ID, or displaying a 'not valid' message.</p>
                     <div className="flex mt-3 text-sm">
-                        <p className="bg-emerald-400/10 text-emerald-300 px-5 py-1 rounded-3xl mr-3">PHP</p>
-                        <p className="bg-emerald-400/10 text-emerald-300 px-5 py-1 rounded-3xl mr-3">CSS3</p>
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-3">PHP</p>
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-3">CSS3</p>
                     </div>
                 </div>
             </motion.div>
@@ -68,10 +68,10 @@ const Experience = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => 
                     <p className="text-[#94A3B8] font-semibold text-sm mb-3">Incubation Co-Lead</p>
                     <p className="text-sm text-[#94A3B8]">Co-Lead of the Incubations at GDSC-GBU. Actively involved in organizing events, networking with industry leaders, and creating opportunities for aspiring entrepreneurs.</p>
                     <div className="flex justify-start items-center flex-wrap mt-3 text-sm overflow-ellipsis gap-2">
-                        <p className="bg-emerald-400/10 text-emerald-300 px-5 py-1 rounded-3xl mr-1">Entrepreneurship</p>
-                        <p className="bg-emerald-400/10 text-emerald-300 px-5 py-1 rounded-3xl mr-1">Pitching</p>
-                        <p className="bg-emerald-400/10 text-emerald-300 px-5 py-1 rounded-3xl mr-1">Market research</p>
-                        <p className="bg-emerald-400/10 text-emerald-300 px-5 py-1 rounded-3xl mr-1">Public speaking</p>
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">Entrepreneurship</p>
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">Pitching</p>
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">Market research</p>
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">Public speaking</p>
                     </div>
                 </div>
             </motion.div>

@@ -67,7 +67,7 @@ const Hero: React.FC<NavbarProps> = ({ scrollToSection, aboutRef, experienceRef,
                     transition={{ duration: 0.6 }}>
                         <h2 className="font-bold text-5xl tracking-tight text-[#E2E8F0]">Nishant Chauhan</h2>
                         <h3 
-                        className="font-medium text-xl md:my-3 my-5 text-[#E2E8F0]">Full stack Developer</h3>
+                        className="font-medium text-xl md:my-3 my-5 text-[#E2E8F0]">Software Engineer</h3>
                         <div 
                         className="text-[#94A3B8] md:mt-8">
                             <h4>&lt;<span className="text-[#E2E8F0]">code</span>&gt;</h4>

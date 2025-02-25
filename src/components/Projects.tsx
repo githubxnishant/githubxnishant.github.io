@@ -44,7 +44,7 @@ const Projects = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
                     <p className="text-[#94A3B8] font-semibold text-sm mb-3">CLI Tool (npm install snoretoast)</p>
                     <p className="text-sm text-[#94A3B8]">Created an intuitive command-line tool using Clack Prompts, Chalk, Node-Notifier, Commander.js and Figlet, that automates reminders and break notifications, also seamlessly integrates with any Node.js project.</p>
                     <div className="flex mt-3 text-sm">
-                        <p className="bg-emerald-400/10 text-emerald-300 px-5 py-1 rounded-3xl mr-3">Javascript</p>
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-3">Javascript</p>
                     </div>
                 </div>
             </motion.div>
@@ -75,9 +75,9 @@ const Projects = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
                     <p className="text-[#94A3B8] font-semibold text-sm mb-3">Collaborative Finance Tracker</p>
                     <p className="text-sm text-[#94A3B8]">Developed a collaborative real-time budget-splitting web app. Features an intuitive UI, real-time updates, and secure data handling that enable users to track expenses, split bills, and settle balances in real-time.</p>
                     <div className="flex justify-start items-center flex-wrap mt-3 text-sm overflow-ellipsis gap-2">
-                        <p className="bg-emerald-400/10 text-emerald-300 px-5 py-1 rounded-3xl mr-1">Web Sockets</p>
-                        <p className="bg-emerald-400/10 text-emerald-300 px-5 py-1 rounded-3xl mr-1">OAuth</p>
-                        <p className="bg-emerald-400/10 text-emerald-300 px-5 py-1 rounded-3xl mr-1">TailwindCSS</p>
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">Web Sockets</p>
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">OAuth</p>
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">TailwindCSS</p>
                     </div>
                 </div>
             </motion.div>
@@ -113,12 +113,12 @@ const Projects = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
                     <p className="text-[#94A3B8] font-semibold text-sm mb-3">Open Source Project</p>
                     <p className="text-sm text-[#94A3B8]">Built an open-source community project that serves as a digital library for students, offering PYQs, research papers, and various other academic resources. Designed to promote easy access to study materials.</p>
                     <div className="flex justify-start items-center flex-wrap mt-3 text-sm overflow-ellipsis gap-2">
-                        <p className="bg-emerald-400/10 text-emerald-300 px-5 py-1 rounded-3xl mr-1">MongoDB</p>
-                        <p className="bg-emerald-400/10 text-emerald-300 px-5 py-1 rounded-3xl mr-1">Express.js</p>
-                        <p className="bg-emerald-400/10 text-emerald-300 px-5 py-1 rounded-3xl mr-1">Node.js</p>
-                        <p className="bg-emerald-400/10 text-emerald-300 px-5 py-1 rounded-3xl mr-1">React.js</p>
-                        <p className="bg-emerald-400/10 text-emerald-300 px-5 py-1 rounded-3xl mr-1">TailwindCSS</p>
-                        <p className="bg-emerald-400/10 text-emerald-300 px-5 py-1 rounded-3xl mr-1">EJS</p>
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">MongoDB</p>
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">Express.js</p>
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">Node.js</p>
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">React.js</p>
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">TailwindCSS</p>
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">EJS</p>
                     </div>
                 </div>
             </motion.div>

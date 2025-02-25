@@ -37,7 +37,7 @@ const Articles = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
                     <p className="text-[#94A3B8] font-semibold text-sm mb-3">Web Development</p>
                     <p className="text-sm text-[#94A3B8]">Managing state in large applications can be challenging, but Redux simplifies it by providing a centralized store for predictable state management. If you're building a scalable React app, understanding Redux can be a game-changer!</p>
                     <div className="flex mt-3 text-sm">
-                        <p className="bg-emerald-400/10 text-emerald-300 px-5 py-1 rounded-3xl mr-3">state management</p>
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-3">state management</p>
                     </div>
                 </div>
             </motion.div>
@@ -60,10 +60,7 @@ const Articles = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
                     <p className="text-[#94A3B8] font-semibold text-sm mb-3">Data Structures and Algorithms</p>
                     <p className="text-sm text-[#94A3B8]"> Binary Search and Interpolation Search are two efficient algorithms, but they work differently. Choosing the right method depends on how the data is structured and the level of efficiency needed.</p>
                     <div className="flex justify-start items-center flex-wrap mt-3 text-sm overflow-ellipsis gap-2">
-                        <p className="bg-emerald-400/10 text-emerald-300 px-5 py-1 rounded-3xl mr-1">searching techniques</p>
-                        {/* <p className="bg-emerald-400/10 text-emerald-300 px-5 py-1 rounded-3xl mr-1">binary search</p>
-                        <p className="bg-emerald-400/10 text-emerald-300 px-5 py-1 rounded-3xl mr-1">interpolation search</p> */}
-                        {/* <p className="bg-emerald-400/10 text-emerald-300 px-5 py-1 rounded-3xl mr-1">sit</p> */}
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">searching techniques</p>
                     </div>
                 </div>
             </motion.div>
