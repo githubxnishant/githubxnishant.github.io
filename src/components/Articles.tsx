@@ -23,7 +23,7 @@ const Articles = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8 }}>
                 <div className="md:w-1/3 my-2 h-full md:flex justify-center items-center flex-col">
-                    <img className='rounded' src="/src/assets/blog2.jpg" />
+                    <img className='rounded' src="/images/blog2.jpg" />
                 </div>
                 <div className="md:w-2/3 md:px-5 md:py-3">
                     <p className="text-[#94A3B8] text-sm mb-1">Few Days Ago...</p>
@@ -46,7 +46,7 @@ const Articles = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.8 }}>
                 <div className="md:w-1/3 my-2 h-full md:flex justify-center items-center flex-col">
-                    <img className='rounded' src="/src/assets/blog1.jpg" />
+                    <img className='rounded' src="/images/blog1.jpg" />
                 </div>
                 <div className="md:w-2/3 md:px-5 md:py-3">
                     <p className="text-[#94A3B8] text-sm mb-1">Few Days Ago...</p>
