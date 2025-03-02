@@ -20,7 +20,7 @@ const About = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
       animate={{ opacity: 1, x: 0 }}   
       transition={{ duration: 0.8 }}>
         <h1 id='about' className="text-2xl font-semibold mb-3">{title}</h1>
-        <p className="leading-8 text-[#94A3B8]">When I was introduced with the Vanilla in high school, I knew technology was my calling. I  explored Python and MySQL while in intermediate school, and transitioned to full-stack development in college. Currently building open-source projects for student community while focusing on <strong>data structures, software engineering fundamentals, and core programming concepts.</strong> Beyond coding, I actively participate in <strong>hackathons, tech events, and community-driven initiatives!</strong></p>
+        <p className="leading-8 text-[#94A3B8]">When I was introduced with the Vanilla in high school, I knew technology was my calling. I  explored Python and MySQL while in intermediate school, and transitioned to full-stack development in university. Currently building open-source projects for student community while focusing on <strong>data structures, software engineering fundamentals, and core programming concepts.</strong> Beyond coding, I actively participate in <strong>hackathons, tech events, and community-driven initiatives!</strong></p>
       </motion.div>
       <motion.div 
       className="mt-5"
