@@ -48,7 +48,7 @@ const Projects = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
                     </div>
                 </div>
             </motion.div>
-            <motion.div className="md:mr-20 px-5 py-3 rounded transition-all duration-300 hover:bg-[#1e293b] md:flex justify-center items-start mb-3 border md:border-0"
+{/*             <motion.div className="md:mr-20 px-5 py-3 rounded transition-all duration-300 hover:bg-[#1e293b] md:flex justify-center items-start mb-3 border md:border-0"
             initial={{ opacity: 0, x: 50 }} 
             animate={{ opacity: 1, x: 0 }}   
             transition={{ duration: 0.8 }}>
@@ -80,7 +80,7 @@ const Projects = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
                         <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">TailwindCSS</p>
                     </div>
                 </div>
-            </motion.div>
+            </motion.div> */}
             <motion.div className="md:mr-20 px-5 py-3 rounded transition-all duration-300 hover:bg-[#1e293b] md:flex justify-center items-start md:mb-20 mb-16 md:border-0 border"
             initial={{ opacity: 0, x: 50 }}  
             animate={{ opacity: 1, x: 0 }}   
