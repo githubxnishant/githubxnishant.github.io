@@ -32,7 +32,7 @@ const About = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
         <h2 className="text-[#E2E8F0] font-medium">Web Technologies</h2>
         <p className="text-[#94A3B8] mt-1 mb-5">HTML5, CSS3, Web Sockets, Redis, PHP, Redux, REST Api, MySQL</p>
         <h2 className="text-[#E2E8F0] font-medium">Frameworks/Library</h2>
-        <p className="text-[#94A3B8] mt-1 mb-5">React.js, Node.js, Express.js, Passport.js, Framer-motion</p>
+        <p className="text-[#94A3B8] mt-1 mb-5">React.js, Node.js, Express.js, OAuth, Passport.js, Framer-motion</p>
         <h2 className="text-[#E2E8F0] font-medium">Miscellaneous</h2>
         <p className="text-[#94A3B8] mt-1 mb-5">Git, GitHub, MongoDB, Storybook, TailwindCSS, Shadcn UI</p>
       </motion.div>
