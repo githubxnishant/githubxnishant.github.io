@@ -26,7 +26,7 @@ const Articles = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
                     <img className='rounded' src="/images/blog2.jpg" />
                 </div>
                 <div className="md:w-2/3 md:px-5 md:py-3">
-                    <p className="text-[#94A3B8] text-sm mb-1">Few Days Ago...</p>
+                    <p className="text-[#94A3B8] text-sm mb-1">Few months ago...</p>
                     <p className="text-[#E2E8F0] flex justify-between items-center">Redux - Beginner's Guide
                         <a href="https://redux.hashnode.dev/redux-what-why-how-when-and-where-to-use-it" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
@@ -49,7 +49,7 @@ const Articles = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
                     <img className='rounded' src="/images/blog1.jpg" />
                 </div>
                 <div className="md:w-2/3 md:px-5 md:py-3">
-                    <p className="text-[#94A3B8] text-sm mb-1">Few Days Ago...</p>
+                    <p className="text-[#94A3B8] text-sm mb-1">Few months ago...</p>
                     <p className="text-[#E2E8F0] flex justify-between items-center">Interpolation vs Binary Search 
                         <a href="https://binary-vs-interpolation-search.hashnode.dev/binary-search-vs-interpolation-search" target="_blank">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
