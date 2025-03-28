@@ -116,7 +116,7 @@ const Hero: React.FC<NavbarProps> = ({ scrollToSection, aboutRef, experienceRef,
                                 <path d="m22.351 8.019-6.37-6.37a5.63 5.63 0 0 0-7.962 0l-6.37 6.37a5.63 5.63 0 0 0 0 7.962l6.37 6.37a5.63 5.63 0 0 0 7.962 0l6.37-6.37a5.63 5.63 0 0 0 0-7.962zM12 15.953a3.953 3.953 0 1 1 0-7.906 3.953 3.953 0 0 1 0 7.906z"></path>
                             </svg>
                         </a> */}
-                        <a target="_blank" href="https://x.com/tweetxnishant">
+                        <a target="_blank" href="https://x.com/chauhanishant_">
                             <svg width="33" height="33" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1227" fill="#94A3B8" className="text-text-secondary hover:text-text-primary transition-all duration-300 hover:fill-[#E2E8F0]" aria-hidden="true">
                                 <path d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"></path>
                             </svg>
