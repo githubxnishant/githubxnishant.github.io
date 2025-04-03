@@ -29,7 +29,7 @@ const Projects = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
                     <p className="text-[#E2E8F0] flex justify-between items-start mt-1 md:mt-0">
                         <div className="flex gap-2">
                             <p>Snoretoast</p>
-                            <div className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl text-sm mr-3 flex justify-between items-center"><p className="h-1 w-1 bg-emerald-300 transition-all animate-ping duration-300 rounded-4xl mr-2"></p>Live</div>
+                            <div className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl text-sm mr-3 flex justify-between items-center"><p className="h-1 w-1 bg-emerald-300 transition-all animate-bounce duration-300 rounded-4xl mr-2"></p>Live</div>
                         </div>
                         <a target="_blank" className="cursor-pointer" href="">
                             <div className="flex justify-center items-center">
@@ -97,7 +97,7 @@ const Projects = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
                     <p className="text-[#E2E8F0] flex justify-between items-start md:mt-0 mt-1">
                         <div className="flex gap-2">
                             <p>GBU Academics</p>
-                            <div className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl text-sm mr-3 flex justify-between items-center"><p className="h-1 w-1 bg-emerald-300 transition-all animate-ping duration-300 rounded-4xl mr-2"></p>Live</div>
+                            <div className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl text-sm mr-3 flex justify-between items-center"><p className="h-1 w-1 bg-emerald-300 transition-all animate-pulse duration-300 rounded-4xl mr-2"></p>Live</div>
                         </div>
                         <a target="_blank" className="cursor-pointer" href="">
                             <div className="flex justify-center items-center">
