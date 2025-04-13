@@ -75,7 +75,7 @@ const Experience = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => 
                     </p>
                     <p className="text-[#94A3B8] font-semibold text-sm mb-3">Apprenticeship</p>
                     <p className="text-sm text-[#94A3B8]">Developed a community project that serves as a digital library for students, offering PYQs, research papers, and various other academic resources. Designed to promote easy access to study materials.</p>
-                    <div className="flex mt-3 text-sm">
+                    <div className="flex justify-start items-center flex-wrap mt-3 text-sm overflow-ellipsis gap-2">
                         <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">MongoDB</p>
                         <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">Express.js</p>
                         <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">Node.js</p>
