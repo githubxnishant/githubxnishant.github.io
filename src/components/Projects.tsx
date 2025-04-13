@@ -20,10 +20,44 @@ const Projects = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
             </motion.h1>
             <motion.div className="md:mr-20 px-5 py-3 rounded transition-all duration-300 hover:bg-[#1e293b] md:flex justify-center items-start mb-3 border md:border-0"
             initial={{ opacity: 0, x: 50 }} 
+            animate={{ opacity: 1, x: 0 }}   
+            transition={{ duration: 0.8 }}>
+                <div className="md:w-1/5 h-auto md:flex justify-center items-start">
+                    <p className="text-[#94A3B8] text-sm mt-3">APR 2025 </p>
+                </div>
+                <div className="md:w-4/5 md:px-5 md:py-3">
+                    <p className="text-[#E2E8F0] flex justify-between items-start mt-1 md:mt-0">BuddyCRM
+                        <a target="_blank" className="cursor-pointer" href="">
+                            <div className="flex justify-center items-center">
+                                <a href="https://github.com/githubxnishant/BuddyCRM" target="_blank">
+                                    <svg width="30" height="30" className="text-text-secondary hover:text-text-primary cursor-pointer transition-all duration-300 hover:fill-[#E2E8F0] mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="#94A3B8" viewBox="0 0 24 24">
+                                        <path fill-rule="evenodd" d="M12.006 2a9.847 9.847 0 0 0-6.484 2.44 10.32 10.32 0 0 0-3.393 6.17 10.48 10.48 0 0 0 1.317 6.955 10.045 10.045 0 0 0 5.4 4.418c.504.095.683-.223.683-.494 0-.245-.01-1.052-.014-1.908-2.78.62-3.366-1.21-3.366-1.21a2.711 2.711 0 0 0-1.11-1.5c-.907-.637.07-.621.07-.621.317.044.62.163.885.346.266.183.487.426.647.71.135.253.318.476.538.655a2.079 2.079 0 0 0 2.37.196c.045-.52.27-1.006.635-1.37-2.219-.259-4.554-1.138-4.554-5.07a4.022 4.022 0 0 1 1.031-2.75 3.77 3.77 0 0 1 .096-2.713s.839-.275 2.749 1.05a9.26 9.26 0 0 1 5.004 0c1.906-1.325 2.74-1.05 2.74-1.05.37.858.406 1.828.101 2.713a4.017 4.017 0 0 1 1.029 2.75c0 3.939-2.339 4.805-4.564 5.058a2.471 2.471 0 0 1 .679 1.897c0 1.372-.012 2.477-.012 2.814 0 .272.18.592.687.492a10.05 10.05 0 0 0 5.388-4.421 10.473 10.473 0 0 0 1.313-6.948 10.32 10.32 0 0 0-3.39-6.165A9.847 9.847 0 0 0 12.007 2Z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                                <a target='_blank' href="https://buddy-crm.vercel.app/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#94A3B8" className="text-text-secondaryhover:text-text-primary cursor-pointer transition-all duration-300 hover:fill-[#E2E8F0]" viewBox="0 0 16 16">
+                                        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M3.668 2.501l-.288.646a.847.847 0 0 0 1.479.815l.245-.368a.81.81 0 0 1 1.034-.275.81.81 0 0 0 .724 0l.261-.13a1 1 0 0 1 .775-.05l.984.34q.118.04.243.054c.784.093.855.377.694.801-.155.41-.616.617-1.035.487l-.01-.003C8.274 4.663 7.748 4.5 6 4.5 4.8 4.5 3.5 5.62 3.5 7c0 1.96.826 2.166 1.696 2.382.46.115.935.233 1.304.618.449.467.393 1.181.339 1.877C6.755 12.96 6.674 14 8.5 14c1.75 0 3-3.5 3-4.5 0-.262.208-.468.444-.7.396-.392.87-.86.556-1.8-.097-.291-.396-.568-.641-.756-.174-.133-.207-.396-.052-.551a.33.33 0 0 1 .42-.042l1.085.724c.11.072.255.058.348-.035.15-.15.415-.083.489.117.16.43.445 1.05.849 1.357L15 8A7 7 0 1 1 3.668 2.501"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </a>
+                    </p>
+                    <p className="text-[#94A3B8] font-semibold text-sm mb-3">– AI-powered CRM for Contacts</p>
+                    <p className="text-sm text-[#94A3B8]">Developed a lightweight CRM tool to help users manage relations with contacts. Features include personalized email/SMS messaging, and intelligent follow-up supported by AI.</p>
+                    <div className="flex justify-start items-center flex-wrap mt-3 text-sm overflow-ellipsis gap-2">
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">MERN Stack</p>
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">OAuth</p>
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">Twilio API</p>
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">Gemini AI</p>
+                    </div>
+                </div>
+            </motion.div>
+            <motion.div className="md:mr-20 px-5 py-3 rounded transition-all duration-300 hover:bg-[#1e293b] md:flex justify-center items-start mb-3 border md:border-0"
+            initial={{ opacity: 0, x: 50 }} 
             animate={{ opacity: 1, x: 0 }}  
             transition={{ duration: 0.8 }}>
                 <div className="md:w-1/5 h-auto md:flex justify-center items-start">
-                    <p className="text-[#94A3B8] text-sm mt-3">Mar 2025</p>
+                    <p className="text-[#94A3B8] text-sm mt-3">MAR 2025</p>
                 </div>
                 <div className="md:w-4/5 md:px-5 md:py-3">
                     <p className="text-[#E2E8F0] flex justify-between items-start mt-1 md:mt-0">
@@ -83,40 +117,7 @@ const Projects = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
                     </div>
                 </div>
             </motion.div>
-{/*             <motion.div className="md:mr-20 px-5 py-3 rounded transition-all duration-300 hover:bg-[#1e293b] md:flex justify-center items-start mb-3 border md:border-0"
-            initial={{ opacity: 0, x: 50 }} 
-            animate={{ opacity: 1, x: 0 }}   
-            transition={{ duration: 0.8 }}>
-                <div className="md:w-1/5 h-auto md:flex justify-center items-start">
-                    <p className="text-[#94A3B8] text-sm mt-3">DEC 2024 </p>
-                </div>
-                <div className="md:w-4/5 md:px-5 md:py-3">
-                    <p className="text-[#E2E8F0] flex justify-between items-start mt-1 md:mt-0">PayPer Head
-                        <a target="_blank" className="cursor-pointer" href="">
-                            <div className="flex justify-center items-center">
-                                <a href="https://github.com/githubxnishant/payper-head" target="_blank">
-                                    <svg width="30" height="30" className="text-text-secondary hover:text-text-primary cursor-pointer transition-all duration-300 hover:fill-[#E2E8F0] mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="#94A3B8" viewBox="0 0 24 24">
-                                        <path fill-rule="evenodd" d="M12.006 2a9.847 9.847 0 0 0-6.484 2.44 10.32 10.32 0 0 0-3.393 6.17 10.48 10.48 0 0 0 1.317 6.955 10.045 10.045 0 0 0 5.4 4.418c.504.095.683-.223.683-.494 0-.245-.01-1.052-.014-1.908-2.78.62-3.366-1.21-3.366-1.21a2.711 2.711 0 0 0-1.11-1.5c-.907-.637.07-.621.07-.621.317.044.62.163.885.346.266.183.487.426.647.71.135.253.318.476.538.655a2.079 2.079 0 0 0 2.37.196c.045-.52.27-1.006.635-1.37-2.219-.259-4.554-1.138-4.554-5.07a4.022 4.022 0 0 1 1.031-2.75 3.77 3.77 0 0 1 .096-2.713s.839-.275 2.749 1.05a9.26 9.26 0 0 1 5.004 0c1.906-1.325 2.74-1.05 2.74-1.05.37.858.406 1.828.101 2.713a4.017 4.017 0 0 1 1.029 2.75c0 3.939-2.339 4.805-4.564 5.058a2.471 2.471 0 0 1 .679 1.897c0 1.372-.012 2.477-.012 2.814 0 .272.18.592.687.492a10.05 10.05 0 0 0 5.388-4.421 10.473 10.473 0 0 0 1.313-6.948 10.32 10.32 0 0 0-3.39-6.165A9.847 9.847 0 0 0 12.007 2Z" clip-rule="evenodd"></path>
-                                    </svg>
-                                </a>
-                                <a target='_blank' href="">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#94A3B8" className="text-text-secondaryhover:text-text-primary cursor-pointer transition-all duration-300 hover:fill-[#E2E8F0]" viewBox="0 0 16 16">
-                                        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M3.668 2.501l-.288.646a.847.847 0 0 0 1.479.815l.245-.368a.81.81 0 0 1 1.034-.275.81.81 0 0 0 .724 0l.261-.13a1 1 0 0 1 .775-.05l.984.34q.118.04.243.054c.784.093.855.377.694.801-.155.41-.616.617-1.035.487l-.01-.003C8.274 4.663 7.748 4.5 6 4.5 4.8 4.5 3.5 5.62 3.5 7c0 1.96.826 2.166 1.696 2.382.46.115.935.233 1.304.618.449.467.393 1.181.339 1.877C6.755 12.96 6.674 14 8.5 14c1.75 0 3-3.5 3-4.5 0-.262.208-.468.444-.7.396-.392.87-.86.556-1.8-.097-.291-.396-.568-.641-.756-.174-.133-.207-.396-.052-.551a.33.33 0 0 1 .42-.042l1.085.724c.11.072.255.058.348-.035.15-.15.415-.083.489.117.16.43.445 1.05.849 1.357L15 8A7 7 0 1 1 3.668 2.501"/>
-                                    </svg>
-                                </a>
-                            </div>
-                        </a>
-                    </p>
-                    <p className="text-[#94A3B8] font-semibold text-sm mb-3">Collaborative Finance Tracker</p>
-                    <p className="text-sm text-[#94A3B8]">Developed a collaborative real-time budget-splitting web app. Features an intuitive UI, real-time updates, and secure data handling that enable users to track expenses, split bills, and settle balances in real-time.</p>
-                    <div className="flex justify-start items-center flex-wrap mt-3 text-sm overflow-ellipsis gap-2">
-                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">Web Sockets</p>
-                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">OAuth</p>
-                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">TailwindCSS</p>
-                    </div>
-                </div>
-            </motion.div> */}
-            <motion.div className="md:mr-20 px-5 py-3 rounded transition-all duration-300 hover:bg-[#1e293b] md:flex justify-center items-start md:mb-20 mb-16 md:border-0 border"
+{/*             <motion.div className="md:mr-20 px-5 py-3 rounded transition-all duration-300 hover:bg-[#1e293b] md:flex justify-center items-start md:mb-20 mb-16 md:border-0 border"
             initial={{ opacity: 0, x: 50 }}  
             animate={{ opacity: 1, x: 0 }}   
             transition={{ duration: 0.8 }}>
@@ -157,7 +158,7 @@ const Projects = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
                         <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">EJS</p>
                     </div>
                 </div>
-            </motion.div>
+            </motion.div> */}
         </>
     )
 })
