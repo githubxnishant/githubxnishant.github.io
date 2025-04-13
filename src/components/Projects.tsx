@@ -42,13 +42,13 @@ const Projects = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
                             </div>
                         </a>
                     </p>
-                    <p className="text-[#94A3B8] font-semibold text-sm mb-3">– AI-powered CRM for Contacts</p>
+                    <p className="text-[#94A3B8] font-semibold text-sm mb-3">AI-powered CRM for Contacts</p>
                     <p className="text-sm text-[#94A3B8]">Developed a lightweight CRM tool to help users manage relations with contacts. Features include personalized email/SMS messaging, and intelligent follow-up supported by AI.</p>
                     <div className="flex justify-start items-center flex-wrap mt-3 text-sm overflow-ellipsis gap-2">
                         <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">MERN Stack</p>
                         <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">OAuth</p>
                         <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">Twilio API</p>
-                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">Gemini AI</p>
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-1">Gemini API</p>
                     </div>
                 </div>
             </motion.div>
@@ -81,7 +81,7 @@ const Projects = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
                     <p className="text-sm text-[#94A3B8]">"Turn PDFs into conversations with AI" - Upload and analyze PDF files with AI. Summarize content, extract answers, and interact with your documents in seconds.</p>
                     <div className="flex mt-3 text-sm">
                         <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-3">Gemini API</p>
-                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-3">MERN</p>
+                        <p className="bg-emerald-400/10 text-emerald-300 px-3 py-1 rounded-3xl mr-3">MERN Stack</p>
                     </div>
                 </div>
             </motion.div>
