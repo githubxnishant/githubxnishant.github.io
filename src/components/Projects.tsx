@@ -7,8 +7,8 @@ interface SectionProps {
 
 const Projects = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
     return (
-        <>
-            <motion.h1 ref={ref} id='experience' className="text-2xl font-semibold mb-3 flex justify-between"
+        <div  ref={ref} className="md:min-h-screen w-auto">
+            <motion.h1 id='experience' className="md:pt-15 text-2xl font-semibold mb-3 flex justify-between"
             initial={{ opacity: 0, x: 50 }} 
             animate={{ opacity: 1, x: 0 }}  
             transition={{ duration: 0.8 }}>{title}
@@ -159,7 +159,7 @@ const Projects = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
                     </div>
                 </div>
             </motion.div> */}
-        </>
+        </div>
     )
 })
 

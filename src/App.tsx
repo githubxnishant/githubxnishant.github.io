@@ -27,7 +27,7 @@ const App: React.FC = () => {
         projectsRef={projectsRef} 
         articlesRef={articlesRef} 
       />
-      <div className="md:w-[55%] bg-[#0f172a] md:pt-25 md:pr-25 px-10 overflow-auto .scrollbar-hide sm:w-screen">
+      <div className="md:w-[55%] bg-[#0f172a] md:pr-25 px-10 overflow-auto .scrollbar-hide sm:w-screen">
         <About ref={aboutRef} title="About Me"/>
         <Experience ref={experienceRef} title="Experience" />
         <Projects ref={projectsRef} title="Projects" />

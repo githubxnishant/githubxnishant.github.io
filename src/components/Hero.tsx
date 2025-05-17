@@ -58,7 +58,7 @@ interface NavbarProps {
 const Hero: React.FC<NavbarProps> = ({ scrollToSection, aboutRef, experienceRef, projectsRef, articlesRef }) => {
     return (
         <>
-            <div className="w-screen h-screen px-16 py-20 md:w-[45%] md:h-full md:px-35 md:py-25 ">
+            <div className="w-screen h-screen px-16 py-20 md:w-[45%] md:h-full md:px-35 md:py-15">
                 <div className="h-full">
                     <motion.div 
                     className="h-[30%]"

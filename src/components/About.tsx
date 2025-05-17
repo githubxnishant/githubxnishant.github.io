@@ -12,10 +12,9 @@ const About = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
   }
 
   return (
-    <>
-      <motion.div 
-      ref={ref}
-      className="mb-3 w-full"
+    <div ref={ref} className="md:min-h-screen w-auto">
+      <motion.div
+      className="mb-3 md:pt-15 w-full"
       initial={{ opacity: 0, x: 50 }}  
       animate={{ opacity: 1, x: 0 }}   
       transition={{ duration: 0.8 }}>
@@ -48,7 +47,7 @@ const About = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => {
             </svg>
         </button>
       </motion.div>
-    </>
+    </div>
   );
 });
 

@@ -19,11 +19,10 @@ const Experience = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => 
     }
     
     return (
-        <>
+        <div ref={ref} className="md:min-h-screen w-auto">
             <motion.h1 
-            ref={ref}
             id='experience' 
-            className="text-2xl font-semibold mb-3 md:flex md:justify-between items-center"
+            className="text-2xl md:pt-15 font-semibold mb-3 md:flex md:justify-between items-center"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}>{title}
@@ -105,7 +104,7 @@ const Experience = forwardRef<HTMLDivElement, SectionProps>(({ title }, ref) => 
                     </div>
                 </div>
             </motion.div>
-        </>
+        </div>
     );
 });
 
